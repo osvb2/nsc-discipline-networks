@@ -1,0 +1,6 @@
+output_id,output_name,file_path,caution,file_exists
+MASTER_INTERACTIVE_HTML,Interactive master educators versus youth network,outputs/master_educators_vs_youth_network_interactive/master_educators_vs_youth_interactive_network.html,"Cross-chapter dashed links are interpretive bridge edges, not empirical causal proof.",TRUE
+MASTER_NODES,Node audit table,outputs/master_educators_vs_youth_network_interactive/master_interactive_nodes.csv,Node details are built from ENA code columns and joined thematic inventory evidence anchors.,TRUE
+MASTER_EDGES,Edge audit table,outputs/master_educators_vs_youth_network_interactive/master_interactive_edges.csv,Within-chapter edges are co-occurrence edges; bridge edges are interpretive synthesis edges.,TRUE
+MASTER_BRIDGE_MAP,Cross-chapter bridge map,outputs/master_educators_vs_youth_network_interactive/master_interactive_bridge_theme_map.csv,Bridge map should be reported if this figure is used in Chapter 7.,TRUE
+MASTER_CODE_ACTIVATION_LONG,Long code activation table,outputs/master_educators_vs_youth_network_interactive/master_interactive_code_activation_long.csv,Long table is the audit trail for node-level details.,TRUE
