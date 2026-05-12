@@ -4,46 +4,256 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NSC Discipline Networks</title>
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
-      max-width: 1000px;
+      max-width: 1050px;
       margin: 42px auto;
-      padding: 0 22px 60px 22px;
+      padding: 0 22px 70px 22px;
       line-height: 1.5;
       color: #111;
+      background: #fff;
     }
-    h1 { font-size: 32px; margin-bottom: 6px; }
-    h2 { margin-top: 30px; border-top: 1px solid #ddd; padding-top: 18px; }
-    li { margin: 8px 0; }
-    a { color: #0b3d91; font-weight: 700; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      color: #444;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      margin-top: 34px;
+      padding-top: 18px;
+      border-top: 1px solid #ddd;
+      font-size: 23px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin-top: 8px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: #0b3d91;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .note {
       background: #f6f6f6;
       border-left: 4px solid #333;
       padding: 12px 14px;
-      margin: 22px 0;
+      margin: 22px 0 28px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 16px 18px;
+      background: #fafafa;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .small {
+      color: #555;
+      font-size: 14px;
+    }
+
+    code {
+      background: #f2f2f2;
+      padding: 2px 5px;
+      border-radius: 4px;
     }
   </style>
 </head>
+
 <body>
   <h1>NSC Discipline Networks</h1>
-  <p>Interactive visNetwork maps for the NSC discipline thesis analysis.</p>
+
+  <p class="subtitle">
+    Interactive visNetwork maps for the NSC discipline thesis analysis.
+  </p>
 
   <div class="note">
-    Open each folder below, then open the relevant <strong>.html</strong> file inside it.
+    <strong>Reading note.</strong> Open a folder below, then open the relevant
+    <strong>.html</strong> file inside it. Use hover pop-ups, zoom, drag, and the network controls
+    to inspect codes, definitions, evidence anchors, comparison groups, and interpretive bridges.
+  </div>
+
+  <h2>Best starting points</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Chapter aggregate networks</h3>
+      <p class="small">
+        Use these first to read the collapsed chapter-level code networks without participant-group comparison.
+      </p>
+      <p>
+        <a href="additional_chapter_networks_no_group_comparison/">
+          Open chapter aggregate networks
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Final master aggregate network</h3>
+      <p class="small">
+        Use this to read the full Chapter 4, Chapter 5, and Chapter 6 synthesis with interpretive bridges.
+      </p>
+      <p>
+        <a href="final_master_aggregate_network_with_interpretive_bridges/">
+          Open final master aggregate network
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Region-annotated networks</h3>
+      <p class="small">
+        Use these when you want the network to read like a map, with analytic regions marked and labelled.
+      </p>
+      <p>
+        <a href="region_annotated_existing_networks_V3/">
+          Open region-annotated networks
+        </a>
+      </p>
+    </div>
   </div>
 
   <h2>Aggregate networks</h2>
+
   <ul>
-    <li><a href="additional_chapter_networks_no_group_comparison/">Additional chapter networks, no group comparison</a></li>
-    <li><a href="final_master_aggregate_network_with_interpretive_bridges/">Final master aggregate network with interpretive bridges</a></li>
+    <li>
+      <a href="additional_chapter_networks_no_group_comparison/">
+        Additional chapter networks, no group comparison
+      </a>
+      <br>
+      <span class="small">
+        Chapter 4, Chapter 5, and Chapter 6 aggregate code networks.
+      </span>
+    </li>
+
+    <li>
+      <a href="final_master_aggregate_network_with_interpretive_bridges/">
+        Final master aggregate network with interpretive bridges
+      </a>
+      <br>
+      <span class="small">
+        Master synthesis joining conceptualisation, operationalisation, and experience.
+      </span>
+    </li>
+
+    <li>
+      <a href="master_educators_vs_youth_network_interactive/">
+        Master educators versus youth network
+      </a>
+      <br>
+      <span class="small">
+        Interactive cross-dataset comparison between educator-side and youth-side structures.
+      </span>
+    </li>
   </ul>
 
-  <h2>Definition-fixed and annotated networks</h2>
+  <h2>Comparison networks</h2>
+
   <ul>
-    <li><a href="interactive_networks_with_key_regions_labeled_FIXED/">Interactive networks with key regions labelled</a></li>
-    <li><a href="region_annotated_existing_networks_V3/">Region annotated existing networks V3</a></li>
+    <li>
+      <a href="interactive_within_chapter_group_networks/">
+        Interactive within-chapter group networks
+      </a>
+      <br>
+      <span class="small">
+        Chapter 4 instructors versus school leaders, Chapter 5 instructors versus school leaders,
+        and Chapter 6 male youths versus female youths.
+      </span>
+    </li>
   </ul>
+
+  <h2>Annotated and definition-fixed networks</h2>
+
+  <ul>
+    <li>
+      <a href="interactive_networks_with_key_regions_labeled_FIXED/">
+        Interactive networks with key regions labelled
+      </a>
+      <br>
+      <span class="small">
+        Networks rebuilt with key analytic regions labelled.
+      </span>
+    </li>
+
+    <li>
+      <a href="region_annotated_existing_networks_V3/">
+        Region annotated existing networks V3
+      </a>
+      <br>
+      <span class="small">
+        Existing network layouts with region overlays added.
+      </span>
+    </li>
+  </ul>
+
+  <h2>Repository folders</h2>
+
+  <p>
+    The current published folders are:
+  </p>
+
+  <ul>
+    <li><a href="additional_chapter_networks_no_group_comparison/">additional_chapter_networks_no_group_comparison</a></li>
+    <li><a href="final_master_aggregate_network_with_interpretive_bridges/">final_master_aggregate_network_with_interpretive_bridges</a></li>
+    <li><a href="interactive_networks_with_key_regions_labeled_FIXED/">interactive_networks_with_key_regions_labeled_FIXED</a></li>
+    <li><a href="interactive_within_chapter_group_networks/">interactive_within_chapter_group_networks</a></li>
+    <li><a href="master_educators_vs_youth_network_interactive/">master_educators_vs_youth_network_interactive</a></li>
+    <li><a href="region_annotated_existing_networks_V3/">region_annotated_existing_networks_V3</a></li>
+  </ul>
+
+  <h2>How to read the maps</h2>
+
+  <p>
+    Each node represents a code. Node size usually indicates code frequency or weight. Links show code relations,
+    co-occurrence, comparison bridges, or interpretive bridges, depending on the specific network. Hover over nodes
+    and links to read definitions, participant details, evidence anchors, and bridge explanations.
+  </p>
+
+  <p class="small">
+    Published through GitHub Pages from the <code>main</code> branch using the repository root.
+  </p>
 </body>
 </html>
