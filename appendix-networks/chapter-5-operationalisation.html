@@ -1358,14 +1358,14 @@ function resetOneCluster(node, options, network){
     if(node.options.isHardToRead !== undefined){ // we have to reset this node
       if(node.options.isHardToRead){
         var final_shape;
-        var shape_Using control to tune the group = false;
-        var is_Using control to tune the group = false;
+        var shape_group = false;
+        var is_group = false;
   	  // have a group information & a shape defined in group ?
         if(node.options.group !== undefined && options.groups !== undefined){
           if(options.groups[node.options.group] !== undefined){
-            is_Using control to tune the group = true;
+            is_group = true;
             if(options.groups[node.options.group].shape !== undefined){
-              shape_Using control to tune the group = true;
+              shape_group = true;
             }
           }
         }
@@ -1414,14 +1414,14 @@ function resetOneNode(node, options, network){
     if(node.isHardToRead !== undefined){ // we have to reset this node
       if(node.isHardToRead){
         var final_shape;
-        var shape_Using control to tune the group = false;
-        var is_Using control to tune the group = false;
+        var shape_group = false;
+        var is_group = false;
   	  // have a group information & a shape defined in group ?
         if(node.group !== undefined && options.groups !== undefined){
           if(options.groups[node.group] !== undefined){
-            is_Using control to tune the group = true;
+            is_group = true;
             if(options.groups[node.group].shape !== undefined){
-              shape_Using control to tune the group = true;
+              shape_group = true;
             }
           }
         }
@@ -1644,8 +1644,8 @@ function imageNodeAsHardToRead(node, imageType, hideColor1, hideColor2, type){
 // Global function to set one node as hard to read
 function nodeAsHardToRead(node, options, hideColor1, hideColor2, network, type){
   var final_shape;
-  var shape_Using control to tune the group = false;
-  var is_Using control to tune the group = false;
+  var shape_group = false;
+  var is_group = false;
 
 
   if(node.isHardToRead === false || node.isHardToRead === undefined){
@@ -1653,9 +1653,9 @@ function nodeAsHardToRead(node, options, hideColor1, hideColor2, network, type){
     // have a group information & a shape defined in group ?
     if(node.group !== undefined && options.groups !== undefined){
       if(options.groups[node.group] !== undefined){
-        is_Using control to tune the group = true;
+        is_group = true;
         if(options.groups[node.group].shape !== undefined){
-          shape_Using control to tune the group = true;
+          shape_group = true;
         }
       }
     }
@@ -4994,7 +4994,7 @@ HTMLWidgets.widget({
             resetAllNodes(nodes, true, options, instance.network, true);
           } else {
             if(x.clusteringGroup){
-              var array_Using control to tune the group = nodes.get({
+              var array_group = nodes.get({
                 fields: ['group'],
                 filter: function (item) {
                   return  item.id === params.nodes[0] ;
@@ -5125,7 +5125,7 @@ HTMLWidgets.widget({
       function clusterByGroup(groups) {
         var clusterOptionsByData;
         for (var i = 0; i < groups.length; i++) {
-          var Using control to tune the group = groups[i];
+          var group = groups[i];
           var j = x.clusteringGroup.groups.indexOf(group);
           if(j !== -1) {
             var col = x.clusteringGroup.color[j];
@@ -5135,7 +5135,7 @@ HTMLWidgets.widget({
             
             clusterOptionsByData = {
                 joinCondition: function (childOptions) {
-                    return childOptions.Using control to tune the group == group; //
+                    return childOptions.group == group; //
                 },
                 processProperties: function (clusterOptions, childNodes, childEdges) {
                     var totalMass = 0;
