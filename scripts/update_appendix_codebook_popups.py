@@ -180,6 +180,10 @@ def update_page(
 
     nodes["title"] = revised_titles
     payload["x"]["tooltipStyle"] = TOOLTIP_STYLE
+    # Keep every published key independently zoomable. This is essential on
+    # narrower screens, where the longer Chapter 6 and Chapter 7 theme labels
+    # otherwise appear clipped inside the legend region.
+    payload["x"]["legend"]["zoom"] = True
     revised_payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     revised_source = (
         source[: script_match.start(2)]
