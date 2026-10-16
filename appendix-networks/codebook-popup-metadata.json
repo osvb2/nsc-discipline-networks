@@ -1,0 +1,619 @@
+{
+  "source": "Appendix 4 codebook tables in the authoritative thesis DOCX",
+  "datasets": {
+    "chapter_5_conceptualisation": {
+      "obedience_threshold": {
+        "analytic_home": "Obedience",
+        "definition": "Threshold requirement. Discipline is defined as a threshold demand to obey, follow orders, or adjust to the Army setting.",
+        "include": "discipline is defined as obligatory obedience, following orders, or adjustment to a prior military demand.",
+        "exclude": "general hierarchy, rules, or punishment unless the bounded claim defines discipline through required obedience."
+      },
+      "punishment_enforcement": {
+        "analytic_home": "Obedience",
+        "definition": "Sanctioned production of obedience. Discipline is produced or learned through punishment, sanction, or enforcement.",
+        "include": "punishment, sanction, or enforcement is presented as the mechanism through which disciplined conduct is produced or learned.",
+        "exclude": "mere mention of consequences unless enforcement is central to the conceptual claim."
+      },
+      "hierarchy_authority": {
+        "analytic_home": "Obedience",
+        "definition": "Formal authority relation. Discipline is grounded in rank, higher authority, hierarchy, or the military chain of command.",
+        "include": "rank, higher authority, hierarchy, or chain of command grounds the meaning of discipline.",
+        "exclude": "trust or legitimacy claims unless formal or positional authority is central."
+      },
+      "rule_order_tacit_norms": {
+        "analytic_home": "Obedience",
+        "definition": "Normative order. Discipline is located in formal rules, legal order, briefed instructions, unwritten rules, or tacit expectations.",
+        "include": "discipline is located in formal rules, legal order, briefed expectations, unwritten rules, or tacit norms.",
+        "exclude": "a breach alone unless the claim concerns the rule or expectation that governs conduct."
+      },
+      "breach_correction": {
+        "analytic_home": "Obedience",
+        "definition": "Expectation revealed through correction. Disciplinary expectations become visible through breach, error, detection, or correction.",
+        "include": "expectations become recognisable through error, detection, breach, correction, or rectification.",
+        "exclude": "punishment as a general mechanism unless breach revelation or correction is central."
+      },
+      "authority_legitimacy_intent": {
+        "analytic_home": "Obedience",
+        "definition": "Recognised legitimacy. Obedience depends on the subordinate’s reading of authority as legitimate, improving, reciprocal, or non-arbitrary.",
+        "include": "obedience depends on authority being read as legitimate, improving, reciprocal, credible, or non-arbitrary.",
+        "exclude": "rank alone or general trust unless the participant links recognition of intent to obedience."
+      },
+      "authority_maintenance": {
+        "analytic_home": "Obedience",
+        "definition": "Enacted authority. Authority is treated as something enacted, nurtured, protected, or undermined through ongoing conduct.",
+        "include": "authority is enacted, nurtured, protected, weakened, or restored through ongoing interaction.",
+        "exclude": "formal hierarchy that is treated as automatic or fixed."
+      },
+      "trust_credibility": {
+        "analytic_home": "Obedience",
+        "definition": "Credibility relation. Discipline is linked to trust, credibility, professionalism, or confidence within or beyond the hierarchy.",
+        "include": "discipline supports trust, professionalism, credibility, or confidence within the hierarchy or in public.",
+        "exclude": "operational reliability unless trust or credibility is explicitly at stake."
+      },
+      "operational_reliability_risk": {
+        "analytic_home": "Obedience",
+        "definition": "Institutional risk. Discipline is framed as a condition for reliable performance, especially where lapse or under-discipline threatens tasks.",
+        "include": "discipline is treated as necessary for reliable task completion or where lapse threatens mission or organisational performance.",
+        "exclude": "general reputation or trust unless operational failure is central."
+      },
+      "non_negotiable_army_order": {
+        "analytic_home": "Obedience",
+        "definition": "Discursive closure. Army discipline is presented as given, functionally designed, non-negotiable, or necessary to avoid institutional failure.",
+        "include": "Army order is presented as given, necessary, functionally designed, beyond negotiation, or required to prevent collapse.",
+        "exclude": "ordinary obedience unless alternatives are discursively closed."
+      },
+      "innate_natural_claim": {
+        "analytic_home": "Internalisation",
+        "definition": "Origin claim. Discipline is framed as innate, natural, raw, uncodified, built-in, or survival-linked.",
+        "include": "discipline is framed as innate, natural, raw, built-in, uncodified, or survival-linked.",
+        "exclude": "acquired habit, upbringing, or socialisation."
+      },
+      "prior_socialisation_mismatch": {
+        "analytic_home": "Internalisation",
+        "definition": "Formation mismatch. Discipline is shaped by prior culture, upbringing, community, exposure, or mismatch with military expectation.",
+        "include": "discipline is explained through prior culture, upbringing, community, exposure, or mismatch with military expectation.",
+        "exclude": "home values as a simple positive source unless mismatch or prior formation is central."
+      },
+      "repetition_habit_memory": {
+        "analytic_home": "Internalisation",
+        "definition": "Recurrence-to-habit claim. Discipline becomes ingrained through repetition, drill, daily practice, brain memory, muscle memory, or habit.",
+        "include": "repetition, drill, consistency, brain memory, muscle memory, or habit is said to make discipline ingrained.",
+        "exclude": "repeated conduct that is only externally managed or not linked to habit or memory."
+      },
+      "goal_persistence": {
+        "analytic_home": "Internalisation",
+        "definition": "Counter-inclination persistence. Discipline is continuing toward a clear goal despite low desire, discomfort, or counter-inclination.",
+        "include": "discipline is defined as continuing towards a clear goal despite low desire or counter-inclination.",
+        "exclude": "routine repetition without a stated goal."
+      },
+      "self_regulation_autonomy": {
+        "analytic_home": "Internalisation",
+        "definition": "Autonomous execution claim. Discipline is self-control or autonomous action without immediate prompting, supervision, mood, or external instruction.",
+        "include": "discipline is self-control or action without immediate prompting, supervision, mood, or instruction.",
+        "exclude": "visible compliance where autonomy is not claimed."
+      },
+      "conformity_without_assent": {
+        "analytic_home": "Internalisation",
+        "definition": "Appearance-substance warning. Outward conformity may conceal dissent, strategy, hostile intention, or lack of inner alignment.",
+        "include": "outward conformity may conceal dissent, strategy, hostile intent, or lack of inward alignment.",
+        "exclude": "simple compliance unless the appearance-substance problem is explicit."
+      },
+      "extrinsic_motive_compliance": {
+        "analytic_home": "Internalisation",
+        "definition": "Motive ambiguity. Disciplined conduct may be driven by fear, reward, ambition, graduation, or becoming a soldier rather than inner formation.",
+        "include": "conduct may be driven by fear, reward, ambition, graduation, status, or another external motive.",
+        "exclude": "internally stated goals or values unless the contrast with inward discipline is central."
+      },
+      "self_discipline_personal_rule": {
+        "analytic_home": "Internalisation",
+        "definition": "Personal governance claim. Self-discipline is framed as the person becoming their own environment through personal rules, principles, or self-control.",
+        "include": "the person is described as becoming their own environment through personal rules, principles, or self-control.",
+        "exclude": "general autonomy without a personal governance claim."
+      },
+      "moral_neutral_discipline": {
+        "analytic_home": "Internalisation",
+        "definition": "Moral indeterminacy. Discipline is treated as technically effective, precise, or controlled but not necessarily morally good.",
+        "include": "discipline is technically effective, precise, or controlled but not necessarily morally good.",
+        "exclude": "ordinary wrongdoing or compliance unless the code separates effectiveness from morality."
+      },
+      "widened_life_governance": {
+        "analytic_home": "Internalisation",
+        "definition": "Conceptual extension. Discipline expands beyond military conduct into everyday life, money, resources, thrift, restraint, or general life management.",
+        "include": "discipline expands beyond military conduct into money, thrift, resources, restraint, or general life management.",
+        "exclude": "a military-only claim or a narrow habit without conceptual extension."
+      },
+      "personal_responsibility_moralisation": {
+        "analytic_home": "Internalisation",
+        "definition": "Individual moralisation. Discipline becomes a moral language for judging, repairing, or governing the individual person.",
+        "include": "discipline becomes a moral language for judging, repairing, or governing the individual person.",
+        "exclude": "practical budgeting or self-control unless moral responsibility or blame is central."
+      },
+      "prior_home_values": {
+        "analytic_home": "Internalisation",
+        "definition": "Prior formation. Discipline is traced to home, cadets, early socialisation, family values, or beliefs formed before the programme.",
+        "include": "discipline is traced to home, cadets, family values, beliefs, or early socialisation before the programme.",
+        "exclude": "general cultural mismatch unless a specific prior value source is identified."
+      },
+      "context_observation_variability": {
+        "analytic_home": "Internalisation",
+        "definition": "Context dependence. Discipline is uneven across domains, settings, roles, or observation conditions.",
+        "include": "discipline varies across settings, domains, roles, or observation conditions.",
+        "exclude": "strategic display unless variability across contexts is the conceptual centre."
+      },
+      "strategic_display_persona": {
+        "analytic_home": "Performativity",
+        "definition": "Strategic performance. Discipline appears as a strategic image, character, persona, Hummingbird role, or controlled appearance used to get by.",
+        "include": "discipline appears as a strategic image, role, persona, or controlled appearance used to get by.",
+        "exclude": "ordinary visible signs unless strategic presentation is explicit."
+      },
+      "surveillance_visibility": {
+        "analytic_home": "Performativity",
+        "definition": "Observation condition. Discipline is shaped by being watched, guarded, locked down, corrected, or made continuously visible.",
+        "include": "watched, guarded, locked-down, inspected, or continuously visible conditions shape disciplined conduct.",
+        "exclude": "visible dress or mannerisms where observation itself is not central."
+      },
+      "visible_signs_legibility": {
+        "analytic_home": "Performativity",
+        "definition": "Inspectable sign. Discipline is judged through visible signs such as dress, deportment, neatness, mannerisms, etiquette, or what the eyes see.",
+        "include": "discipline is judged through dress, deportment, neatness, mannerisms, etiquette, or other inspectable signs.",
+        "exclude": "surveillance mechanisms or public reputation unless the sign itself is central."
+      },
+      "standard_uncertainty_modelling": {
+        "analytic_home": "Performativity",
+        "definition": "Unstable standard. The standards by which discipline is displayed or judged are unevenly known, inconsistently modelled, or role-dependent.",
+        "include": "disciplinary standards are grey, inconsistently known, unevenly modelled, or role-dependent.",
+        "exclude": "rule ambiguity unless inconsistent modelling or judging is central."
+      },
+      "consequence_managed_compliance": {
+        "analytic_home": "Performativity",
+        "definition": "Consequence-shaped display. Visible compliance is sustained through reinforcement, consequence, rigid standard-setting, or pragmatic adjustment to external demand.",
+        "include": "visible compliance is sustained through consequence, reinforcement, rigid standards, or pragmatic adjustment.",
+        "exclude": "punishment as a general definition unless the outcome is managed visible compliance."
+      },
+      "eye_service_appearance_gap": {
+        "analytic_home": "Performativity",
+        "definition": "Appearance-substance gap. There is a gap between disciplined appearance and substantive or real discipline.",
+        "include": "disciplined appearance is explicitly distinguished from substantive or real discipline.",
+        "exclude": "strategic persona unless the claim centres the gap between appearance and substance."
+      },
+      "motivation_vs_discipline": {
+        "analytic_home": "Performativity",
+        "definition": "Immediate effort versus durability. Effort produced by audience, event, examination, or immediate pressure is separated from discipline as durable conduct.",
+        "include": "audience, event, examination, or immediate pressure produces effort that is distinguished from durable discipline.",
+        "exclude": "external motives generally unless the contrast is between temporary motivation and discipline."
+      },
+      "unwatched_durability_test": {
+        "analytic_home": "Performativity",
+        "definition": "Durability test. Real discipline is examined by whether conduct persists when no one is watching or when inspection is absent.",
+        "include": "real discipline is examined by conduct when no one is watching or inspection is absent.",
+        "exclude": "post-training change unless absence of observation is the examination."
+      },
+      "values_character_carrier": {
+        "analytic_home": "Performativity",
+        "definition": "Character claim. Discipline is presented as carrying, grounding, or enabling moral values and military character traits.",
+        "include": "discipline is presented as carrying, grounding, or enabling values and military character.",
+        "exclude": "moral neutrality or general values unless discipline is the claimed carrier."
+      },
+      "durability_after_control": {
+        "analytic_home": "Performativity",
+        "definition": "Post-control persistence. The issue is what happens to discipline when training pressure, observation, or structure weakens.",
+        "include": "the question is what remains when training pressure, surveillance, or structure weakens.",
+        "exclude": "unwatched moments that do not address persistence across reduced control."
+      },
+      "public_reputation_expectation": {
+        "analytic_home": "Performativity",
+        "definition": "Public legibility. Disciplined appearance is tied to public expectation, institutional reputation, or disappointment in the military.",
+        "include": "disciplined appearance is tied to public expectation, institutional reputation, or disappointment in the military.",
+        "exclude": "internal trust or operational reliability unless public legibility is central."
+      }
+    },
+    "chapter_6_operationalisation": {
+      "standard_setting": {
+        "analytic_home": "Cross-theme",
+        "definition": "Authority establishes, clarifies, or imposes expected conduct.",
+        "include": "Entry standards, required conduct, rule/instruction clarification, boundaries.",
+        "exclude": "Consequences for failure unless consequence is central."
+      },
+      "accountability_orientation": {
+        "analytic_home": "Cross-theme",
+        "definition": "Recruits are made answerable to authority, peers, or the group.",
+        "include": "Accounting for self, reporting, answerability, rule/instruction following.",
+        "exclude": "General visibility without answerability."
+      },
+      "consequence_linkage": {
+        "analytic_home": "Cross-theme",
+        "definition": "Conduct is tied to punishment, reward, privilege, restriction, removal, or staged consequence.",
+        "include": "Fear of punishment, reward, privilege, confinement, removal.",
+        "exclude": "General standards without named consequence."
+      },
+      "adaptation_timetable": {
+        "analytic_home": "Cross-theme",
+        "definition": "Expectations change according to stage of training.",
+        "include": "Week one versus week four, increasing tolerance threshold.",
+        "exclude": "General development without time-staged expectation."
+      },
+      "psychological_uncertainty": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Uncertainty, unpredictability, hidden knowledge, or ambiguity is used to shape conduct.",
+        "include": "Mind games, false information, hidden observation, staged realism, mystery.",
+        "exclude": "Researcher uncertainty or ordinary confusion."
+      },
+      "symbolic_coercion": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Symbolic force or charged imagery intensifies authority.",
+        "include": "Whip, ghost, slave-master, not worthy, danger, severity, death framing.",
+        "exclude": "Ordinary command without symbolic force."
+      },
+      "explanatory_reasoning": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Authority supplies reasons, meanings, or explanations for discipline.",
+        "include": "Explaining titles, correction, pain, ordeal, professionalism.",
+        "exclude": "Bare command without explanation."
+      },
+      "relational_influence": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Relationship, trust, care, rapport, or attachment is used to shape conduct.",
+        "include": "Father figure, approachable instructor, safe haven, reasoning with youths.",
+        "exclude": "Motivation without relationship."
+      },
+      "motivational_activation": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Conduct is energised through morale, encouragement, challenge, or affective buy-in.",
+        "include": "Love this thing, war cries that energise, what it takes, willingness.",
+        "exclude": "Reward as consequence."
+      },
+      "habit_repetition": {
+        "analytic_home": "Using control to influence hearts and minds",
+        "definition": "Repeated conduct is used to make action automatic.",
+        "include": "Repeated sir, repeated drills, repeated bodily commands.",
+        "exclude": "One-off correction."
+      },
+      "persistence_beyond_training": {
+        "analytic_home": "Hearts and minds; individual body",
+        "definition": "Discipline is expected or questioned beyond the immediate training setting.",
+        "include": "No one watching, after training, hard to take out, remains after graduation.",
+        "exclude": "Explicit examination under changed authority/setting; use durability_testing."
+      },
+      "habit_interruption": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Civilian or prior bodily habits are disrupted.",
+        "include": "Drinking in headdress, breaking body from what it is used to.",
+        "exclude": "Repetition to form habit."
+      },
+      "bodily_regulation": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Bodily need or exertion is controlled.",
+        "include": "Food, sleep, hydration, fatigue, pain, running, push-ups, injury under demand.",
+        "exclude": "Visible bodily signs."
+      },
+      "temporal_control": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Time or pacing is controlled as part of discipline.",
+        "include": "Withholding watches, paced hydration, threshold removal.",
+        "exclude": "General training sequence."
+      },
+      "embodied_standardisation": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Bodies are placed into prescribed forms, postures, movements, or configurations.",
+        "include": "Flat out, crawl, hands to side, posture, drill form.",
+        "exclude": "Reading signs without correction."
+      },
+      "bodily_sign_reading": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Visible or audible bodily conduct is read as evidence of discipline.",
+        "include": "Dress, voice, posture, sir, neatness, bodily compliance as evidence.",
+        "exclude": "Watching bodies for control."
+      },
+      "visibility_supervision": {
+        "analytic_home": "Hearts and minds; individual body",
+        "definition": "Conduct is shaped through being seen, watched, inspected, or kept in line of sight.",
+        "include": "Eyesight, inspection, scanning, line of sight, visible/inspectable action.",
+        "exclude": "Visible signs as evidence."
+      },
+      "bodily_proof": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Bodily evidence or visual proof is used to expose misconduct or teach consequence.",
+        "include": "Footage, staged evidence, missing body/casualty made visible.",
+        "exclude": "Ordinary supervision."
+      },
+      "bodily_restriction": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Movement, equipment, posture, or bodily freedom is restricted.",
+        "include": "Confinement, loss of bootlaces/belt, prolonged attention.",
+        "exclude": "Physical exertion alone."
+      },
+      "coercive_correction": {
+        "analytic_home": "Using control to govern the individual body",
+        "definition": "Harsh bodily correction or physical coercion is used or contested.",
+        "include": "Draping, choking, abuse, torture, forceful correction.",
+        "exclude": "Ordinary push-ups or commanded movement."
+      },
+      "durability_testing": {
+        "analytic_home": "Hearts and minds; individual body",
+        "definition": "Discipline is examined for whether it remains when authority, setting, or pressure changes.",
+        "include": "Hidden rank, transfer to unit, wider force, reduced supervision.",
+        "exclude": "General hope that discipline lasts."
+      },
+      "collective_accountability": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "The group is made answerable for one member’s lapse or shared conduct.",
+        "include": "Whole platoon trained for one recruit, weakest link, public group boundary.",
+        "exclude": "Peer monitoring without group accountability."
+      },
+      "lateral_surveillance": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Recruits are expected to watch one another.",
+        "include": "Checking kit, noticing missing items, watching each other’s back.",
+        "exclude": "Formal instructor supervision."
+      },
+      "peer_correction": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Recruits are expected to correct or intervene with one another.",
+        "include": "Peer correction, group keeping lagging recruit in line.",
+        "exclude": "Watching without intervention."
+      },
+      "reciprocal_obligation": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Fairness, sharing, restraint, delegated responsibility, or mutual responsibility shapes group conduct.",
+        "include": "Sharing bread, fair lunch allocation, leaders eat last, peer leaders/squad leaders.",
+        "exclude": "Group punishment."
+      },
+      "equal_standard_enforcement": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "One standard is applied across categories to prevent uneven discipline.",
+        "include": "Recruit a recruit, male/female correction, no special treatment.",
+        "exclude": "General standard setting without category issue."
+      },
+      "competitive_pressure": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Competition is used to raise performance or organise comparison.",
+        "include": "Platoon rivalry, competition to win, range competition.",
+        "exclude": "Energising unity without competition."
+      },
+      "factionalisation_risk": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Group discipline is threatened by rivalry, cheating, or subgroup division.",
+        "include": "Platoon rivalry, cheating, gender split, factions.",
+        "exclude": "General instability without subgroup fracture."
+      },
+      "unstable_group_cohesion": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Group unity appears present but rests on fragile or distorted foundations.",
+        "include": "Fear, rivalry, controlled display, public insult, unequal treatment.",
+        "exclude": "Clear cohesion without instability."
+      },
+      "group_standard_imposition": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "A shared group standard is imposed from above.",
+        "include": "Set the standard early, harsh early standard.",
+        "exclude": "Clarifying expected conduct generally."
+      },
+      "emulative_alignment": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Recruits align conduct by imitating instructor models.",
+        "include": "Copying how instructors look or act.",
+        "exclude": "Formal command or rule-following."
+      },
+      "ritualised_unity": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Repeated collective performance creates group unity.",
+        "include": "War cries, chanting, counting in unison, platoon shout.",
+        "exclude": "Symbolic identity without repeated performance."
+      },
+      "symbolic_cohesion": {
+        "analytic_home": "Using control to tune the group",
+        "definition": "Shared names, symbols, or identity frames bind the group.",
+        "include": "Platoon names, Monsters, citizenship, symbolic belonging.",
+        "exclude": "Repeated chants alone."
+      }
+    },
+    "chapter_7_experience": {
+      "discipline_boundary_judgement": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Category judgement. The participant judges whether an institutional practice can properly count as discipline, or exposes discipline as control, harm, or force under an authorised name.",
+        "include": "the participant explicitly accepts, refuses, limits, redefines, or demystifies the category ‘discipline’, including ‘not discipline’, ‘torture’, ‘just a way to control’, or a preferred acceptable correction.",
+        "exclude": "pain, dislike, compliance, or criticism alone unless the account also makes a judgement about the meaning, legitimacy, or boundary of discipline."
+      },
+      "bodily_harm_danger": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Lived harm. Discipline is lived as discrete bodily injury, illness, violation, near-fatal danger, or potentially lethal treatment.",
+        "include": "infection, burns, bleeding, near drowning, taped-mask danger, injury, bodily violation, or explicit claims that a practice may kill or seriously harm a recruit.",
+        "exclude": "the evidence is better coded as depletion_exhaustion for sustained hunger, sleep loss, bodily shutdown, or collapse without a discrete harmful incident."
+      },
+      "depletion_exhaustion": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Lived depletion. Institutional demands wear down the body through sustained hunger, sleep loss, prolonged exertion, shutdown, or collapse.",
+        "include": "accounts centred on cumulative deprivation, exhaustion, lack of sleep, hunger, the body locking down, or people dropping or collapsing.",
+        "exclude": "a single injury or dangerous event unless cumulative depletion is the central experiential claim."
+      },
+      "psychological_wounding": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Lived psychic consequence. Discipline enters experience as fear, mental breaking, grief, lowered self-esteem, confusion, despair, or injury to the felt self.",
+        "include": "direct accounts of psychic hurt, emotional collapse, diminishment, traumatic persistence, or a self described as confused, isolated, frightened, or broken.",
+        "exclude": "later identity change unless the evidence centres the wound, distress, or psychic consequence itself."
+      },
+      "verbal_degradation": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Relational degradation. Speech diminishes personhood through insult, cursing, family attack, animalising language, or degrading address.",
+        "include": "direct degrading speech by peers or authority, including attacks on parents, being placed below dogs, or repeated abusive naming.",
+        "exclude": "the evidence is better coded as racialised_degradation where race, colour, place, slavery, or inherited identity is central to the degradation."
+      },
+      "racialised_degradation": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Inherited meaning. Language or treatment diminishes a person through race, colour, place, mixed identity, Blackness, slavery, or another inherited identity marker.",
+        "include": "‘field slave’, ‘live like slaves’, colourism, ‘coolie’, place-based ‘obeah wucka’, or related identity-specific diminishment.",
+        "exclude": "general insults or general hierarchy unless the account turns on racialised, colonial, or slavery-linked meaning."
+      },
+      "humiliation_display": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Public diminishment. Authority or peers make a person publicly small by exposure, impossible performance, visible undercutting, or displayed subordination.",
+        "include": "accounts centred on being singled out, publicly shamed, made to fail before others, or visibly reduced through an authority relation.",
+        "exclude": "private pain, ordinary correction, or exclusion unless public diminishment is central."
+      },
+      "silencing_nonresponse": {
+        "analytic_home": "Disconnecting from previous life; Reconnecting inside the programme",
+        "definition": "Blocked account. The participant’s explanation, report, self-defence, or claim to be heard is blocked, ignored, or treated as illegitimate.",
+        "include": "‘talk back’ labels, no chance to explain, ignored reports, absent reasoning, or a response that leaves the participant without a hearing.",
+        "exclude": "privacy loss, gossip, or peer betrayal unless the central issue is the denial of voice or response."
+      },
+      "family_separation_priority": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Prior-anchor loosening. The programme loosens prior anchors of attachment by blocking family contact or placing institutional work above kin.",
+        "include": "separation from a child, denied calls, ‘nothing is more important than the work’, or ‘them literally lock you off’ from family.",
+        "exclude": "the evidence is better coded as kin_motivation where family is primarily a reason to persist, provide, or imagine a future."
+      },
+      "peer_care_solidarity": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Precarious care. Peers create a precarious form of belonging through care, practical help, loyalty, companionship, or shared endurance.",
+        "include": "washing for an injured peer, bringing food, holding on together, loyal bunkmates, or comradeship that persists through discomfort.",
+        "exclude": "group victory or external validation unless the cluster centres care, holding, or solidarity."
+      },
+      "group_pride_validation": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Collective validation. Belonging is strengthened through collective achievement, shared pride, winning, or recognition of the group.",
+        "include": "champion platoon, successful inspections, competitions, shared accomplishment, or validation attached to collective performance.",
+        "exclude": "individual pride in personal change; use positive_transformation."
+      },
+      "respect_recognition": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Relational recognition. A person is recognised, respected, praised, protected, or misrecognised as someone whose conduct and dignity matter.",
+        "include": "reciprocal respect, praise, being treated as an example, protection, dignity recognition, or accounts where respect is withheld or made conditional.",
+        "exclude": "the evidence is better coded as learning_support where teaching, explanation, or paced assistance is the central relation."
+      },
+      "learning_support": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Pedagogic support. Authority supports learning through explanation, patience, knowledge, attention, or care directed at helping the recruit understand or perform.",
+        "include": "sitting with a recruit, asking whether more time is needed, explaining a task, teaching patiently, or making sure the lesson is learned.",
+        "exclude": "routine instruction, practical skill, or praise alone unless pedagogic support is central."
+      },
+      "needed_responsibility": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Felt agency. Delegated responsibility enables a youth to feel trusted, useful, competent, or needed within the programme.",
+        "include": "entrusted keys, stores, tanks, protective roles, peer leadership, or other responsibilities that produce felt agency or usefulness.",
+        "exclude": "the evidence is better coded as kin_motivation where responsibility is directed mainly towards family outside the programme."
+      },
+      "exclusion_isolation": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Negated belonging. Belonging is negated through rejection, ejection, physical pushing away, isolation, or being left alone.",
+        "include": "being told to go home, pushed away at tea, isolated, summoned and ejected, or left sitting alone.",
+        "exclude": "self-chosen withdrawal for safety; use self_protection_boundary."
+      },
+      "peer_mistrust_betrayal": {
+        "analytic_home": "Disconnecting from previous life; Reconnecting inside the programme",
+        "definition": "Unsafe peer relation. Peer relations become unsafe through theft, threat, betrayal, gossip, privacy violation, or broken loyalty.",
+        "include": "stolen items, violent threat, circulated speech, betrayal after bypassing authority, or other peer conduct that weakens trust.",
+        "exclude": "the evidence is better coded as group_fragmentation where the central mechanism is collective punishment, lateral blame, or group pressure."
+      },
+      "authority_disregard": {
+        "analytic_home": "Disconnecting from previous life; Reconnecting inside the programme",
+        "definition": "Withheld care. Authority fails or refuses to recognise bodily pain, medical distress, care needs, grief, or other human vulnerability.",
+        "include": "pain ignored after disclosure, untreated vomiting, injury minimised, bereavement mishandled, or care withheld until an extreme threshold.",
+        "exclude": "the evidence is better coded as silencing_nonresponse where the central issue is blocked explanation rather than disregarded vulnerability."
+      },
+      "structural_powerlessness": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Unequal power. Hierarchy or programme structure places a youth in a position with limited felt agency, low standing, or authority without effective power.",
+        "include": "accounts of being at the bottom, ‘little power’, formal responsibility without agency, or exclusion from recognised leadership.",
+        "exclude": "a single disrespectful interaction unless the account identifies a wider structural or positional limit."
+      },
+      "group_fragmentation": {
+        "analytic_home": "Reconnecting inside the programme",
+        "definition": "Burdened belonging. Collective punishment, lateral blame, or group pressure turns peers against one another and weakens belonging.",
+        "include": "accounts where one person’s conduct makes the whole group suffer, produces blame, encourages ejection, or pressures conformity.",
+        "exclude": "the evidence is better coded as peer_mistrust_betrayal for theft, threat, gossip, or interpersonal betrayal without a group-order mechanism."
+      },
+      "self_protection_boundary": {
+        "analytic_home": "Reconnecting inside the programme; Developing within a precarious situation",
+        "definition": "Protective refusal. The participant reaches a safety or dignity limit and seeks to refuse, leave, withdraw, or protect the self.",
+        "include": "‘rather be at home’, ‘protect myself’, refusal of humiliation, or an explicit point at which belonging or compliance becomes unacceptable.",
+        "exclude": "all disagreement or resistance; use identity_continuity_resistance where preserving humanity or prior self is central."
+      },
+      "temporal_disruption": {
+        "analytic_home": "Disconnecting from previous life",
+        "definition": "Institutional time. Institutional time is lived as counted yet indefinite, repetitive, prescribed, emotionally heavy, or separated from ordinary rhythm.",
+        "include": "calendars, uncertain end dates, endless days, repetitive punishment, prescribed cycles, or time experienced as something to endure.",
+        "exclude": "the evidence is better coded as routine_internalisation where repeated time demands become an embodied habit or personal schedule."
+      },
+      "routine_internalisation": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Embodied adjustment. Repeated schedules, routines, and standards become embodied habits that the participant carries or performs with reduced external prompting.",
+        "include": "waking early, making beds, punctual reporting, conditioning to institutional time, or repetition becoming natural.",
+        "exclude": "Do not infer inward formation from recurrence alone; code only where the participant describes habit, embodiment, or carried routine."
+      },
+      "endurance_conditioning": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Survival response. Pressure elicits survival mode, concealed emotion, instinctive response, stoicism, or persistence through hardship.",
+        "include": "hiding tears, pushing through, acting by instinct under threat, staying in survival mode, or learning to endure discomfort.",
+        "exclude": "positive transformation unless endurance or survival is the central experiential process."
+      },
+      "reframing_as_training": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Retrospective reframe. The participant later interprets punishment, hardship, or pain as building, preparation, useful training, or necessary pressure.",
+        "include": "‘not punishment but extra training’, ‘building me’, useful reaction speed, or another explicit retrospective re-reading of hardship.",
+        "exclude": "immediate institutional claims that hardship is useful unless the participant adopts or develops the reframe."
+      },
+      "practical_competence": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Skill acquisition. The participant reports gaining a concrete skill or work capacity through programme activity.",
+        "include": "cooking, stores, tank duties, tool use, driving, truck work, or another named capacity to do a task.",
+        "exclude": "general maturity, routine compliance, confidence, or soldierly identity without a specific learned competence."
+      },
+      "positive_transformation": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Claimed formation. The participant presents change as maturity, improved character, pride, peace, confidence, or becoming a better version of self.",
+        "include": "largely affirmative claims of being built, matured, transformed, more disciplined, more capable, or professionally certain.",
+        "exclude": "the evidence is better coded as ambivalent_unresolved_change where positive change remains inseparable from harm, contradiction, or unresolved bad change."
+      },
+      "ambivalent_unresolved_change": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Unresolved development. Development remains contradictory, incomplete, or unsettled, with opposed meanings held together without resolution.",
+        "include": "good and bad change, hope beside darkness, growth beside stuckness, incomplete transformation, or paired positive and negative self-appraisals.",
+        "exclude": "a clearly settled positive or clearly harmful outcome where the contradiction is no longer central."
+      },
+      "dangerous_becoming": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Dehumanising formation. The programme is perceived as capable of producing superiority, dehumanisation, violence, robotic conduct, narrowed judgement, or alienation from civilians and kin.",
+        "include": "warnings about dangerous pride, killing or bragging, mindlessness, being made artificial, or devaluing civilians and family.",
+        "exclude": "bodily danger during a training event; use bodily_harm_danger."
+      },
+      "identity_continuity_resistance": {
+        "analytic_home": "Disconnecting from previous life; Developing within a precarious situation",
+        "definition": "Continuity of self. The participant preserves or asserts humanity, prior competence, inner judgement, or a ‘mind on my own’ against institutional remaking.",
+        "include": "claims that beating did not change the self, that discipline must start inside, that humanity remains, or that prior identity and competence endure.",
+        "exclude": "the evidence is better coded as discipline_boundary_judgement where the central claim concerns what should count as discipline rather than continuity of self."
+      },
+      "kin_motivation": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Familial imperative. Family attachment or obligation gives the participant a reason to persist, provide, succeed, or imagine a future.",
+        "include": "making a mother proud, providing for a child, sacrificing for a sibling, responding to an internalised family command, or planning for kin.",
+        "exclude": "the evidence is better coded as family_separation_priority where family is primarily blocked, subordinated, or cut off by the programme."
+      },
+      "principle_purpose_orientation": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Internal orientation. The participant locates discipline in an internal principle, purpose, belief, morality, roots, or self-directed standard.",
+        "include": "discipline ‘from within’, moral purpose, belief, roots, effective action, stoic principle, or self-directed improvement.",
+        "exclude": "kin-centred motivation or a future defined mainly by leaving or opposing the programme."
+      },
+      "alternative_oppositional_future": {
+        "analytic_home": "Developing within a precarious situation",
+        "definition": "Future outside programme terms. The participant imagines a future outside, away from, or critical of the programme’s military and disciplinary terms.",
+        "include": "another vocation, a care- or family-oriented path, refusal of the programme’s leadership category, or discipline demystified as control.",
+        "exclude": "uncertainty alone unless an alternative or oppositional future is made visible."
+      },
+      "hope_resilience": {
+        "analytic_home": "Disconnecting from previous life; Reconnecting inside the programme; Developing within a precarious situation",
+        "definition": "Hope without resolution. Hope, light, fire, peace, rising, or resilience remains present without resolving vulnerability, unmooring, or contested development.",
+        "include": "explicit hope, light, fire, peace, rising, or refusal to be fully reduced by hardship, including paintings that retain possibility amid darkness.",
+        "exclude": "general positive change without an explicit hope or resilience image, phrase, or experiential claim."
+      }
+    }
+  },
+  "chapter_8_non_code_node": {
+    "AUTHORITY_HUB": {
+      "analytic_home": "Cross-dataset synthesis",
+      "definition": "Synthetic integrative device connecting conceptualisation, operationalisation and experience across Chapters 5, 6 and 7.",
+      "include": "The authority-related code nodes listed below.",
+      "exclude": "Interpretation as a raw ENA code or independently coded evidence."
+    }
+  }
+}
