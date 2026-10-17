@@ -13,37 +13,37 @@ from docx import Document
 
 
 PAGES = {
-    "chapter-5-conceptualisation.html": "C4",
-    "chapter-6-operationalisation.html": "C5",
-    "chapter-7-experience.html": "C6",
+    "chapter-5-conceptualisation.html": "C5",
+    "chapter-6-operationalisation.html": "C6",
+    "chapter-7-experience.html": "C7",
     "chapter-8-cross-dataset-authority.html": "ALL",
 }
 
-EXPECTED_COUNTS = {"C4": 34, "C5": 33, "C6": 33}
+EXPECTED_COUNTS = {"C5": 34, "C6": 33, "C7": 33}
 
 PROPOSAL_DATASETS = {
-    "C4": "chapter_5_conceptualisation",
-    "C5": "chapter_6_operationalisation",
-    "C6": "chapter_7_experience",
+    "C5": "chapter_5_conceptualisation",
+    "C6": "chapter_6_operationalisation",
+    "C7": "chapter_7_experience",
 }
 
-PUBLISHED_CHAPTER = {"C4": "C5", "C5": "C6", "C6": "C7"}
+PUBLISHED_CHAPTER = {"C5": "C5", "C6": "C6", "C7": "C7"}
 
 ANALYTIC_HOME_COUNT_FIELDS = {
-    "C4": (
-        ("Obedience", "count__C4__Obedience"),
-        ("Internalisation", "count__C4__Internalisation"),
-        ("Performativity", "count__C4__Performativity"),
-    ),
     "C5": (
-        ("Using control to influence ‘hearts and minds’", "count__C5__Hearts.and.minds"),
-        ("Using control to govern the individual body", "count__C5__Individual.body"),
-        ("Using control to tune the group", "count__C5__Group.order"),
+        ("Obedience", "count__C5__Obedience"),
+        ("Internalisation", "count__C5__Internalisation"),
+        ("Performativity", "count__C5__Performativity"),
     ),
     "C6": (
-        ("Disconnecting from previous life", "count__C6__Breaking"),
-        ("Reconnecting inside the programme", "count__C6__Belonging"),
-        ("Developing within a precarious situation", "count__C6__Becoming"),
+        ("Using control to influence ‘hearts and minds’", "count__C6__Hearts.and.minds"),
+        ("Using control to govern the individual body", "count__C6__Individual.body"),
+        ("Using control to tune the group", "count__C6__Group.order"),
+    ),
+    "C7": (
+        ("Disconnecting from previous life", "count__C7__Breaking"),
+        ("Reconnecting inside the programme", "count__C7__Belonging"),
+        ("Developing within a precarious situation", "count__C7__Becoming"),
     ),
 }
 
@@ -73,7 +73,7 @@ DOMINANT_RE = re.compile(
     r"<b>Dominant (?:theme|operational route|chapter theme):</b>.*?<br>", re.DOTALL
 )
 POPUP_HEADING_RE = re.compile(
-    r"(<div style='font-size:15px;font-weight:700;margin-bottom:(?:7|8)px;'>)"
+    r"(<div style='font-size:(?:12|15)px;font-weight:700;margin-bottom:(?:7|8)px;'>)"
     r"(.*?)"
     r"(</div>)",
     re.DOTALL,
@@ -87,12 +87,12 @@ LEGACY_EVIDENCE_FIELDS = (
 )
 
 AUTHORITY_HUB_CONNECTIONS = {
-    "C4": (
+    "C5": (
         "hierarchy_authority",
         "authority_legitimacy_intent",
         "authority_maintenance",
     ),
-    "C5": (
+    "C6": (
         "standard_setting",
         "accountability_orientation",
         "explanatory_reasoning",
@@ -100,8 +100,45 @@ AUTHORITY_HUB_CONNECTIONS = {
         "visibility_supervision",
         "group_standard_imposition",
     ),
-    "C6": ("authority_disregard",),
+    "C7": ("authority_disregard",),
 }
+
+INTEGRATED_LEGEND_NODES = [
+    {
+        "id": "legend_header_c8",
+        "label": "Chapter 8 (gold) interpretation",
+        "shape": "text",
+        "font": {"face": "Georgia", "size": 17, "color": "#9A7500"},
+    },
+    {"id": "legend_c8_authority", "label": "Authority", "shape": "dot", "size": 11, "color": "#FDBF11"},
+    {
+        "id": "legend_header_c5",
+        "label": "Chapter 5 (red) themes",
+        "shape": "text",
+        "font": {"face": "Georgia", "size": 17, "color": "#7F0D1D"},
+    },
+    {"id": "legend_c5_obedience", "label": "Obedience", "shape": "dot", "size": 10, "color": "#B2182B"},
+    {"id": "legend_c5_internalisation", "label": "Internalisation", "shape": "dot", "size": 10, "color": "#D6604D"},
+    {"id": "legend_c5_performativity", "label": "Performativity", "shape": "dot", "size": 10, "color": "#F4A582"},
+    {
+        "id": "legend_header_c6",
+        "label": "Chapter 6 (blue) themes",
+        "shape": "text",
+        "font": {"face": "Georgia", "size": 17, "color": "#0F4471"},
+    },
+    {"id": "legend_c6_hearts", "label": "Using control to influence ‘hearts and minds’", "shape": "dot", "size": 10, "color": "#2166AC"},
+    {"id": "legend_c6_body", "label": "Using control to govern the individual body", "shape": "dot", "size": 10, "color": "#67A9CF"},
+    {"id": "legend_c6_group", "label": "Using control to tune the group", "shape": "dot", "size": 10, "color": "#D1E5F0"},
+    {
+        "id": "legend_header_c7",
+        "label": "Chapter 7 (green) themes",
+        "shape": "text",
+        "font": {"face": "Georgia", "size": 17, "color": "#105223"},
+    },
+    {"id": "legend_c7_disconnect", "label": "Disconnecting from previous life", "shape": "dot", "size": 10, "color": "#1B7837"},
+    {"id": "legend_c7_reconnect", "label": "Reconnecting inside the programme", "shape": "dot", "size": 10, "color": "#5AAE61"},
+    {"id": "legend_c7_develop", "label": "Developing within a precarious situation", "shape": "dot", "size": 10, "color": "#A6DBA0"},
+]
 
 POPUP_LABEL_REPLACEMENTS = {
     "<b>Total coded clusters:</b>": "<b>Coded clusters:</b>",
@@ -161,7 +198,7 @@ def extract_codebooks(docx_path: Path) -> dict[str, dict[str, dict[str, str]]]:
             f"found {[len(book) for book in found]}"
         )
 
-    return {"C4": found[0], "C5": found[1], "C6": found[2]}
+    return {"C5": found[0], "C6": found[1], "C7": found[2]}
 
 
 def load_proposals(
@@ -347,7 +384,7 @@ def resolve_metadata(
         }
 
     if page_group == "ALL":
-        match = re.fullmatch(r"(C[456])__(.+)", node_id)
+        match = re.fullmatch(r"(C[567])__(.+)", node_id)
         if not match:
             raise ValueError(f"Unrecognised Chapter 8 node identifier: {node_id}")
         codebook_group, legacy_id = match.groups()
@@ -379,10 +416,10 @@ def wrap_label(value: str, width: int = 24) -> str:
 
 
 def node_label(metadata: dict[str, str], page_group: str) -> str:
-    label = wrap_label(metadata["name"])
-    if page_group == "ALL" and metadata["current_id"] != "AUTHORITY_HUB":
-        return f"{PUBLISHED_CHAPTER[metadata['codebook_group']]}: {label}"
-    return label
+    # The integrated legend now identifies chapter ownership through its
+    # ordered red, blue, green and gold groups. Repeating C5/C6/C7 on every
+    # node would add visual noise without adding information.
+    return wrap_label(metadata["name"])
 
 
 def update_edge_titles(
@@ -481,6 +518,36 @@ def update_page(
     # narrower screens, where the longer Chapter 6 and Chapter 7 theme labels
     # otherwise appear clipped inside the legend region.
     payload["x"]["legend"]["zoom"] = True
+    if page_group == "ALL":
+        payload["x"]["groups"] = [
+            "Authority",
+            "Obedience",
+            "Internalisation",
+            "Performativity",
+            "Using control to influence ‘hearts and minds’",
+            "Using control to govern the individual body",
+            "Using control to tune the group",
+            "Disconnecting from previous life",
+            "Reconnecting inside the programme",
+            "Developing within a precarious situation",
+        ]
+        payload["x"]["byselection"]["values"] = payload["x"]["groups"].copy()
+        payload["x"]["legend"].update(
+            {
+                "main": {
+                    "text": "Legend",
+                    "style": (
+                        "font-family:Georgia, Times New Roman, Times, serif;"
+                        "font-weight:bold;font-size:16px;text-align:center;"
+                    ),
+                },
+                "useGroups": False,
+                "nodes": INTEGRATED_LEGEND_NODES,
+                "nodesToDataframe": False,
+                "ncol": 1,
+                "stepY": 64,
+            }
+        )
     revised_payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     revised_source = (
         source[: script_match.start(2)]
@@ -497,9 +564,9 @@ def write_metadata_audit(
     audit = {
         "source": "Appendix 3B codebook tables in the authoritative thesis DOCX",
         "datasets": {
-            "chapter_5_conceptualisation": mappings["C4"],
-            "chapter_6_operationalisation": mappings["C5"],
-            "chapter_7_experience": mappings["C6"],
+            "chapter_5_conceptualisation": mappings["C5"],
+            "chapter_6_operationalisation": mappings["C6"],
+            "chapter_7_experience": mappings["C7"],
         },
         "chapter_8_non_code_node": {
             "AUTHORITY_HUB": resolve_metadata("AUTHORITY_HUB", "ALL", mappings)
